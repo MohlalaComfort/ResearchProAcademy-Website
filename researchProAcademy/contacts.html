@@ -1,0 +1,106 @@
+  <!Doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ResearchProAcademy Website</title>
+        <link rel ="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">   
+
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+    <body>
+        <section class= "sub_header">
+            <nav>
+                <a href="index.html"><img src="images/logo_final.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="jobs.html">Blog</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <h1>Contact Us</h1>
+        </section>
+<!--------------------------Contact Us------------------------------------>
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229975.80779210385!2d28.057862769202675!3d-25.75827368534005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95619cbec65033%3A0xf66262b07a847b4c!2sPretoria!5e0!3m2!1sen!2sza!4v1643334323531!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class=contact-col>
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Pretoria, 0470</h5>
+                <p> Pretoria North</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>067332355</h5>
+                <p> Monday to Sunday, 8AM to 5PM</p>
+            </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>ResearchProAcademy<br>@gmail.com </h5>
+                <p> Email us your query</p>
+            </span>
+            </div>
+        </div>
+        <div class=contact-col>
+            <form class="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Email Address" required>
+                <input type="text" name="Subject" placeholder="Enter Your Subject" required>
+                <textarea rows="8"  name="message" placeholder="Message" required></textarea>
+                
+                <button type="submit" class="home-btn orange-btn">Send Message</button>
+
+            </form>
+        </div>
+    </div>
+</section>
+
+<!---------------------------------Footer---------------------------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p> Founded in 2017, offers individuals and businesses with professional writing and editing services. We are a team of qualified and skilled professionals who have vast experience in writing, proofreading, editing documents or any research work. Our team also consist of individuals with publishing expertise and high research background.
+        We understand that every document should meet and surpass the expectations and requirements for stakeholders involves. At ResearchProAcademy, we ensure that we work according to your requirements and keep track by designing a track sheet specifically for your document.
+        Our services are highly confidential.<br><br>We aim to provide you with affordable and satisfactory services always.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>© Copyright 2021 ResearchProAcademy. All Rights Reserved.</p>
+
+</section>
+<!-----------------------JavaScript for toggle menu---------------------------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+        </script>
+
+    </body>
+</html> 

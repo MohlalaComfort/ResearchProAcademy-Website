@@ -1,0 +1,83 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ResearchProAcademy Website</title>
+        <link rel ="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">   
+
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+    <body>
+        <section class= "sub_header">
+            <nav>
+                <a href="index.html"><img src="images/logo_final.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="jobs.html">Blog</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <h1>About Us</h1>
+        </section>
+<!-----------About us content------------>
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are one of the best </h1>
+                    <p> Founded in 2017, ResearchProAcademy offers individuals and businesses with professional writing and editing services. 
+                        We are a team of qualified and skilled professionals who have vast experience in writing, proofreading, 
+                        editing documents or any research work. Our team also consist of individuals with publishing expertise and high research background.<br>
+                        <br>We understand that every document should meet and surpass the expectations and requirements for stakeholders involves. At ResearchProAcademy, 
+                        we ensure that we work according to your requirements and keep track by designing a track sheet specifically for your document.<br>
+                        <br>Our services are highly confidential.<br>
+                        <br>We aim to provide you with affordable and satisfactory services always.   
+                    </p>
+                    <a href="" class="home-btn orange-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/about.jpg">
+                </div>
+            </div>
+        </section>
+
+<!--------Footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p> Founded in 2017, offers individuals and businesses with professional writing and editing services. We are a team of qualified and skilled professionals who have vast experience in writing, proofreading, editing documents or any research work. Our team also consist of individuals with publishing expertise and high research background.
+        We understand that every document should meet and surpass the expectations and requirements for stakeholders involves. At ResearchProAcademy, we ensure that we work according to your requirements and keep track by designing a track sheet specifically for your document.
+        Our services are highly confidential.<br><br>We aim to provide you with affordable and satisfactory services always.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>© Copyright 2021 ResearchProAcademy. All Rights Reserved.</p>
+
+</section>
+<!--------JavaScrip for toggle menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+        </script>
+
+    </body>
+</html> 

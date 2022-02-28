@@ -1,0 +1,128 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ResearchProAcademy Website</title>
+        <link rel ="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">   
+
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+    <body>
+        <section class= "sub_header">
+            <nav>
+                <a href="index.html"><img src="images/logo_final.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="jobs.html">Blog</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <h1>Information & Opportunities</h1>
+        </section>
+<!-----------------blog page content---------------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg"> 
+            <h2>Information & Opportunities</h2>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley.  
+            </p>
+            <br>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley.  
+            </p>
+            <br>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley.  
+            </p>
+            <br>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley.  
+            </p>
+        
+
+        <!----------comment box---------->
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+               
+            <form class="comment-form">
+                 <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your comment"></textarea>
+                <button type="submit" class="home-btn orange-btn">Submit</button>
+            </form>
+        </div>
+        </div>
+
+        <div class="blog-right">
+            <h3>Information Center</h3>
+            <div>
+                <span>CV Revamp</span>
+                <span>8</span>
+            </div>
+            <div>
+                <span>Literature Review</span>
+                <span>105</span>
+                </div>
+            <div>
+                <span>Academic Editing</span>
+                <span>502</span>
+            </div>
+            <div>
+                <span>Cover letters</span>
+                <span>91</span>
+                </div>
+                <div>
+                <span>Proof-reading</span>
+                <span>96</span>
+                </div>
+                <div>
+                <span>Journals</span>
+                <span>887</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------Footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p> Founded in 2017, offers individuals and businesses with professional writing and editing services. We are a team of qualified and skilled professionals who have vast experience in writing, proofreading, editing documents or any research work. Our team also consist of individuals with publishing expertise and high research background.
+        We understand that every document should meet and surpass the expectations and requirements for stakeholders involves. At ResearchProAcademy, we ensure that we work according to your requirements and keep track by designing a track sheet specifically for your document.
+        Our services are highly confidential.<br><br>We aim to provide you with affordable and satisfactory services always.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>© Copyright 2021 ResearchProAcademy. All Rights Reserved.</p>
+
+</section>
+<!--------JavaScript for toggle menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+        </script>
+
+    </body>
+</html> 
